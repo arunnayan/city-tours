@@ -8,8 +8,9 @@ export default class Tour extends Component {
 
     return (
       <article className="tour">
-        <div className="imag-container">
+        <div className="img-container">
           <img src={img} alt="image of the tour" />
+
           <span className="close-btn">
             <i className="fas fa-window-close" />
           </span>
